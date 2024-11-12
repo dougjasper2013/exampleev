@@ -6,12 +6,14 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
 
 import { ProductComponent } from './component';
 
+import { FormsModule } from "@angular/forms";
+
 @NgModule({
   declarations: [
     ProductComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule, FormsModule
   ],
   providers: [
     provideAnimationsAsync()
