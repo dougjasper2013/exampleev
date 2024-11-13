@@ -7,10 +7,14 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
 import { ProductComponent } from './component';
 
 import { FormsModule } from "@angular/forms";
+import { PaAttrDirective } from "./attr.directive";
+import { PaModel } from "./twoway.directive";
 
 @NgModule({
   declarations: [
-    ProductComponent
+    ProductComponent,
+    PaAttrDirective,
+    PaModel
   ],
   imports: [
     BrowserModule, FormsModule
